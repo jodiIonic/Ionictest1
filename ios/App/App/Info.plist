@@ -48,7 +48,7 @@
     <key>IonAppId</key>
     <string>b32abe80</string>
     <key>IonChannelName</key>
-    <string>Production</string>
+    <string>Prod2</string>
     <key>IonUpdateMethod</key>
     <string>background</string>
     <key>IonMaxVersions</key>
