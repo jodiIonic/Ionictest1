@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IonicCordo }
 
 @Component({
   selector: 'app-tab1',
@@ -8,6 +9,10 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+
+  display(){
+    IonicCordova.deploy.getCurrentVersion();
+  }
 
 }
 
