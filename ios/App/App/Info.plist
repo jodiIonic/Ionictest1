@@ -54,9 +54,9 @@
     <key>IonAppId</key>
     <string>b32abe80</string>
     <key>IonChannelName</key>
-    <string>Prod2</string>
+    <string>Production2</string>
     <key>IonUpdateMethod</key>
-    <string>background</string>
+    <string>auto</string>
     <key>IonMaxVersions</key>
     <string>2</string>
     <key>IonMinBackgroundDuration</key>
