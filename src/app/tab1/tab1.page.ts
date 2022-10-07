@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicCordo }
+//import { IonicCordova } from '@IonicCordova';
 
 @Component({
   selector: 'app-tab1',
@@ -11,7 +11,7 @@ export class Tab1Page {
   constructor() {}
 
   display(){
-    IonicCordova.deploy.getCurrentVersion();
+    //IonicCordova.deploy.getCurrentVersion();
   }
 
 }
