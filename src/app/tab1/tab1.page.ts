@@ -11,7 +11,7 @@ export class Tab1Page {
   constructor() {}
 
   display(){
-    //IonicCordova.deploy.getCurrentVersion();
+    //console.log(IonicCordova.deploy.getCurrentVersion());
   }
 
 }
