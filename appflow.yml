@@ -7,3 +7,4 @@ platforms:
     buildNumber: $CI_BUILD_NUMBER
   android:
     versionCode: $CI_BUILD_NUMBER
+    versionName: $CI_BUILD_NAME

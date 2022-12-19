@@ -6,11 +6,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "node --max_old_space_size=8192 ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "appflow:build": "npx trapeze run appflow.yml -y && npm run build"
+    "appflow:build": "npx trapeze run appflow.yml -y && npm run build test.sh"
   },
   "private": true,
   "dependencies": {
